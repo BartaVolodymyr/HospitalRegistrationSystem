@@ -31,7 +31,7 @@ public class HospitalRegistrationController {
 		if(doctorManagmentService.isDoctorAvailable(desiredDoctor)) {
 			signup(desiredDoctor);
 		}else {
-			System.out.println(desiredDoctor + " ��������. ������� ������ �����.");
+			System.out.println(desiredDoctor + " зайнятий. Виберіть іншого лікаря.");
 			return;
 		}
 	}
